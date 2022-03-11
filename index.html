@@ -1,0 +1,43 @@
+---
+layout: home
+title: WIP Italia
+---
+
+{% for hero in site.data.home %}
+{% if hero.id == 'main' %}
+  {% assign height = 'is-fullheight-with-navbar' %}
+  {% assign col = 'is-full' %}
+{% else %}
+  {% assign height = 'is-fullheight'  %}
+  {% assign col = 'is-half' %}
+{% endif %}
+
+<section id='{{hero.id}}' class="hero {{height}}" style="background: url({{hero.image}}) center center; background-size: cover">
+  <div class="hero-body px-0">
+    <div class="container px-5">
+      <div class="columns">
+        <div class="column {{col}}">
+          <h2 class="title has-text-white">{{hero.title}}</h2>
+          <p class="subtitle has-text-white">{{hero.subtitle}}</p>
+          {% if hero.link %}
+          <p><a class="button is-primary" href="{{hero.link}}">Continua</a></p>
+          {% endif %}
+          {% if hero.id == "clienti" %}
+          <p>{% for cliente in site.data.clienti %}
+          <a class="has-text-white" href="{{cliente.link}}">{{cliente.name}} |</a>
+          {% endfor %}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% if hero.next %}
+  <div class="hero-foot px-0">
+    <div class="container px-5 has-text-centered pb-5">
+      <a class="has-text-white" href="#{{hero.next}}"><span class="icon is-large"><i class="fas fa-2x fa-chevron-down"></i>
+    </span></a></li>
+    </div>
+  </div>
+  {% endif %}
+</section>
+{% endfor %}

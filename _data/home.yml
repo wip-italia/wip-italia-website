@@ -1,0 +1,24 @@
+- id: main
+  title: Da sempre impegnati nella protezione dei lavoratori e nella valorizzazione della sicurezza nei luoghi di lavoro.
+  subtitle: • Abbigliamento antinfortunistico • Alta visibilità e calzature da lavoro • Dispositivi di protezione individuale per la sicurezza nel lavoro • Segnaletica stradale ed aziendale • Realizzazione banner in PVC e Rete Mesh Grandi Formati • Abbigliamento per la vigilanza • Abbigliamento alberghiero e per ristorazione • Revisione DPI e Anticaduta
+  image: /assets/images/layout/02g.webp
+  next: chi-siamo
+- id: chi-siamo
+  title: Chi Siamo
+  subtitle: "La società è stata fondata con l'intento di soddisfare tutte le esigenze della sua clientela. L'obiettivo principale della nostra azienda è quello di offrire al cliente tutto quello di cui ha bisogno, potendo contare sulla nostra professionalità e competenza. La WIP srl è una società, che possiede una struttura operativa altamente qualificata, dinamica e affidabile.<br> Nell'attuale scenario economico, l'abbigliamento e le attrezzature per il lavoro sono diventati simbolo dell'immagine dell'impresa e della sua responsabilità in materia di sicurezza sul lavoro, uno strumento attraverso il quale distinguersi e caratterizzare la propria professionalità..."
+  image: /assets/images/layout/08g.webp
+  link: chi-siamo
+  next: cataloghi
+- id: cataloghi
+  title: Cataloghi
+  subtitle: L'obiettivo principale della nostra azienda è quello di offrire al cliente tutto quello di cui ha bisogno, potendo contare sulla nostra professionalità e competenza...
+  image: /assets/images/layout/05g.webp
+  link: /cataloghi
+  next: clienti
+- id: clienti
+  title: Cataloghi
+  subtitle: Il nostro intento è quello di alleggerire il più possibile il lavoro dell'ufficio acquisti...
+  image: /assets/images/layout/07g.webp
+  next: footer
+
+  

@@ -1,0 +1,42 @@
+- name: "Dispositivi di Sicurezza"
+  fullname: "Dispositivi di protezione individuale per la sicurezza nel lavoro"
+  description: "I dispositivi di protezione individuale sono quei dispositivi e mezzi volti alla difesa e alla diminuzione dei pericoli per la sicurezza e la salute di una persona; essi sono portati o indossati sul corpo o su parti di esso. Quali devono essere i requisiti dei dispositivi di protezione individuale? I dispositivi di protezione individuale possono essere commercializzati, soltanto se rispondono ai requisiti essenziali per la salute e per la sicurezza, ai sensi dell'allegato II della direttiva (89/686/CEE) e se sono provvisti del marchio di conformità CE. I dispositivi di protezione individuale devono: offrire protezione contro i pericoli da prevenire, senza comportare di per sè un pericolo maggiore, essere idonei per le condizioni presenti sul posto di lavoro, tener conto delle esigenze ergonomiche e delle necessità di salute del lavoratore, essere adatti a colui che li usa. All'adempimento della direttiva (86/686/CEE) concorrono norme europee armonizzate, che non sono vincolanti, per le quali tuttavia vale il presupposto, che la loro osservanza comporti anche la realizzazione dei requisiti contenuti nella direttiva. Il costruttore può discostarsi dalle norme. In questo caso egli deve però dimostrare di aver ottemperato in altro modo ai requisiti posti dalla direttiva CEE. Nel periodo di transizione (fino al 31 dicembre 1994), ai fini della valutazione dei dispositivi di protezione individuale, possono essere applicate, fintantochè non esistono norme armonizzate CEE, norme, regole e prescrizioni nazionali. *) Il marchio deve essere apportato o sul prodotto stesso oppure, in casi particolari, sulla più piccola unità d'imballaggio. CE è l'abbreviazione di Communautè Europèenne-Comunità Europea - ora Unione Europea. Ai DPI, per i quali è prevista un'omologazione, può essere apportato esclusivamente il marchio CE (il marchio GS, marchio di sicurezza controllata, ad esempio, non è ammesso)."
+  image: /assets/images/cataloghi/helmet.webp
+  link: "https://www.wip-italia.com/catalogo/dpi/dpi.html"
+- name: "Alta Visibilità"
+  fullname: "Alta visibilità e calzature da lavoro"
+  description: "Lavori svolti in cantieri su strada o in condizione di scarsa visibilità richiedono un abbigliamento protettivo particolare per evitare incidenti sul lavoro. L'abbigliamento alta visibilità vi offre piena sicurezza e comodità. Troverete indumenti alta visibilità nei colori arancio fluo e giallo fluo: pantaloni, parka, impermeabili, gilet, polo e t-shirt."
+  image: /assets/images/cataloghi/jacket.webp
+  link: https://www.wip-italia.com/catalogo/alta_visibilita/alta_visibilita.html
+- name: Calzature ed Accessori
+  fullname: Calzature ed Accessori
+  description: 
+  image: /assets/images/cataloghi/boots.webp
+  link: https://www.wip-italia.com/catalogo/calzature/calzature.html
+- name: Abbigliamento
+  fullname: Abbigliamento antinfortunistico
+  description: Il settore della sicurezza sul lavoro è in continua e rapida evoluzione non solo sotto l’aspetto normativo di allineamento alle principali normative europee, ma anche per ciò che riguarda la tipologia di prodotti e dei materiali in un mercato sempre più globalizzato. La filosofia operativa della nostra azienda è quella di uniformarsi alle esigenze di un mercato mai come oggi rivolto alla qualità dei prodotti, alla concorrenzialità dei prezzi, all’osservanza delle norme e alla puntualità delle forniture.
+  image: /assets/images/cataloghi/clothes.webp
+  link: https://www.wip-italia.com/catalogo/abbigliamento/abbigliamento.html
+- name: Segnaletica
+  fullname: Segnaletica stradale ed aziendale
+  description: "Disponiamo di una vasta gamma dicartelli stradali e aziendali standard e personalizzabili a richiesta del cliente: segnali di obbligo e divieto, segnaletica speciale, dissuasori, insegne, banners, segnaletica stradale verticale (lavori in corso, divieto di sosta, transenne, lampade crepuscolari ecc.)."
+  image: /assets/images/cataloghi/sign.webp
+  link: https://www.wip-italia.com/catalogo/segnaletica_da_cantiere/segnaletica_da_cantiere.html
+- name: Alberghiero e Medical
+  fullname: Abbigliamento alberghiero e per ristorazione
+  description: Abiti da lavoro per alberghiero e ristorazione ho.re.ca. isacco, giacche e pantaloni per cameriere, abiti per reception, abbbigliamento professionale per facchini e addetti al servizio ai piani. ampia gamma di taglie e di colori
+  image: /assets/images/cataloghi/doctor.webp
+  link: https://www.wip-italia.com/catalogo/ALBERGHIERO_E_MEDICAL_web/ALBERGHIERO_E_MEDICAL_web.html
+- name: 
+  fullname: "Realizzazione banner in PVC e Rete Mesh Grandi Formati"
+  description: "Qualità e velocità di realizzazione su diversi tipi di materiali: Tela Canvas - PVC adesivo - PVC banner - rete mesh microforata -tessuti, flag - PVC da retroilluminazione - PVC trasparenti o semitrasparenti -autoadesivi fustellati secondo esigenza -adesivi per decorazione auto - furgoni - barche - stand - vetrine - rivestimento ponteggi - stampa su automezzi - murales - e molto altro... Siamo continuamente alla ricerca di nuove tipologie di materiale per poter soddisfare ogni richiesta possible. Contattateci per avere la lista aggiornata dei materiali. La tipologia degli inchiostri utilizzati, garantisce una lunga durata del prodotto, anche all’esterno."
+- name: 
+  fullname: "Abbigliamento per la vigilanza"
+  description: "Abbigliamento tecnico e specifico per istituti di vigilanza privata con possibilità di scelta dei modelli e una vasta linea di accessori e calzature uomo e donna."
+- name: 
+  fullname: "Abbigliamento articoli sportivi"
+  description: "Azienda leader nel settore dell’abbigliamento sportivo e dei prodotti per sport, moda e tempo libero. Scarpe, abbigliamento e attrezzature sportive per running, calcio, fitness, trekking, sci, nuoto, ciclismo, volley, basket e boxe in vendita online."
+- name: 
+  fullname: "Articoli promozionali, pubblicitari e beni emblematici"
+  description: "Gli articoli promozionali e i gadget personalizzati sono un potente mezzo di comunicazione tra azienda e mercato. Sfoglia il nostro catalogo generale di gadget promozionali e scegli quello più adatto alle tue esigenze tra articoli. Emblemi con un logo dell’azienda o con un marchio arricchiscono singoli prodotti e le loro confezioni in modo convincente e qualitativamente elevato. Produciamo non solo prodotti di stampaggio come accessori per abbigliamento o articoli di pelletteria ma anche marchi, distintivi ed emblemi per macchinari, mobili o veicoli. Tutte le tecniche di produzione utilizzate per la fabbricazione di spille e di spilloni possono essere adottate anche per la produzione di distintivi, emblemi e marchi. Molti dei nostri clienti principali contano ormai da decenni sulla nostra esperienza e competenza. Convincetevene anche voi!"

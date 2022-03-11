@@ -1,0 +1,34 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "WIP Italia" # the name of your site, e.g. ACME Corp.
+
+permalink: /:title
+
+include:
+  - _pages
+
+collections:
+  pages:
+    permalink: /:title
+    output: true
+
+plugins:
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-sitemap
+
+exclude: 
+  - .DS_Store
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - package-lock.json
+  - package.json
+  - node_modules
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+markdown: kramdown
+highlighter: rouge

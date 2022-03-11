@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}" class="has-navbar-fixed-top">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navbar.html %}
+    
+    <main>
+      {{ content }}
+    </main>
+
+    <script src="/assets/js/main.js"></script>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

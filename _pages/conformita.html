@@ -1,0 +1,28 @@
+---
+layout: page
+title: Dichiarazioni di Conformità
+description: 
+image: /assets/images/layout/04g.webp
+class: content
+menu: Conformità
+---
+<div class="content">
+    <table class="has-text-left">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Decrizione</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for conformita in site.data.conformita %}
+            <tr>
+                <td>{{conformita.name}}</td>
+                <td>{{conformita.description}}</td>
+                <td><a href="{{conformita.link}}"><span class="icon is-medium"><i class="fas fa-lg fa-file-pdf"></i></span></a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

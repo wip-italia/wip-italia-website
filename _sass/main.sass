@@ -1,0 +1,22 @@
+@charset "utf-8"
+
+$family-sans-serif: 'Poppins', sans-serif
+$text: #111111
+$body-line-height: 1.6
+$primary: #f40000
+$link: #f40000
+$navbar-height: 4rem
+$variable-columns: true
+
+@import "../node_modules/bulma/bulma.sass"
+@import "../node_modules/bulma-prefers-dark/bulma-prefers-dark.sass"
+
+.navbar
+    top: 0
+    transition: top 0.3s
+    box-shadow: 0 0px 28px rgba(0,0,0,0.07)
+.navbar-burger 
+  span 
+    height: 2px
+.navbar-dropdown 
+    border: unset

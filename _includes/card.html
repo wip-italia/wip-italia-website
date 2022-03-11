@@ -1,0 +1,21 @@
+<a href="{{card.link}}" target="_blank" rel="noopener noreferrer">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-square">
+                <img style="object-fit: cover;" src="{{card.image}}" alt="{{card.name}}"/>
+            </figure>
+        </div>
+        <div class="card-content">
+            <div class="media-content">
+                <p class="title is-4 has-text-grey-dark">
+                    {{card.name}}
+                </p>
+                <p class="subtitle is-6 has-text-grey">
+                    {{card.description | truncatewords: 10, '...'}}
+                </p>
+            </div>
+        </div>
+    </div>
+</a>
+
+

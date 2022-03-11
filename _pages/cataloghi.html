@@ -1,0 +1,25 @@
+---
+layout: page
+title: Cataloghi e Prodotti
+description: La nostra selezione di prodotti. Realizziamo personalizzazioni con stampe - ricami - patch su richiesta.
+image: /assets/images/layout/01g.webp
+menu: Cataloghi
+submenu: true
+---
+
+<div class="columns is-multiline is-mobile">
+    {% for card in site.data.cataloghi %}
+    {% if card.link %}
+    <div class="column is-6-mobile is-4-tablet is-3-desktop">
+        {% include card.html %}
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<div class="content">
+    {% for catalogo in site.data.cataloghi %}
+        <h2>{{catalogo.fullname}}</h2>
+        <p>{{catalogo.description}}</p>
+    {% endfor %}
+</div>

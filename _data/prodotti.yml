@@ -1,0 +1,15 @@
+- name: BOA-GS-19
+  image: /assets/images/prodotti/boa-gs-19.webp
+  link: /assets/documents/prodotti/scheda-boa-gs-19.pdf
+- name: WIP FP2
+  image: /assets/images/prodotti/wip-fp2.webp
+  link: /assets/documents/prodotti/scheda-wip-fp2.pdf
+- name: WIP MSK3
+  image: /assets/images/prodotti/wip-msk3.webp
+  link: /assets/documents/prodotti/scheda-wip-msk3.pdf
+- name: MSK FFP2.015
+  image: /assets/images/prodotti/msk-ffp2.015.webp
+  link: /assets/documents/prodotti/scheda-msk-ffp2.015.pdf
+- name: WIN VIS
+  image: /assets/images/prodotti/win-vis.webp
+  link: /assets/documents/prodotti/scheda-win-vis.pdf

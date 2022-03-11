@@ -1,0 +1,9 @@
+- name: Facebook
+  link: https://www.facebook.com/WorkInProgressItalia
+  icon: fab fa-lg fa-facebook
+- name: Mail
+  link: mailto:info@wip-italia.com?Subject=Salve%20vorrei%20avere%20informazioni
+  icon: fas fa-lg fa-at
+- name: Phone
+  link: 'phone:+390690287701'
+  icon: fas fa-lg fa-phone

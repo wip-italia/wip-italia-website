@@ -1,0 +1,47 @@
+<nav class="navbar is-fixed-top" id="navbar" role="navigation" aria-label="main navigation">
+  <div class="container px-5">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img class="pr-3" src="/assets/images/logo/mywip-no-margin.png">
+        <h1 class="title is-4">
+          WIP Italia
+        </h1>
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        {% for page in site.pages %}
+        {% if page.submenu %}
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="{{page.url}}">
+            {{page.menu}}
+          </a>
+          <div class="navbar-dropdown">
+            {% for catalogo in site.data.cataloghi %}
+            {% if catalogo.link %}
+            <a class="navbar-item" href="{{catalogo.link}}">
+                {{catalogo.name}}
+            </a>
+            {% endif %}
+            {% endfor %}
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Richiedi un prodotto
+            </a>
+          </div>
+        </div>
+        {% elsif page.menu %}
+        <a class="navbar-item" href="{{page.url}}">
+            {{page.menu}}
+        </a>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</nav>

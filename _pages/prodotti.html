@@ -1,0 +1,15 @@
+---
+layout: page
+title: I Nostri Prodotti
+description: La nostra selezione di prodotti, 100% made in Italy.
+image: /assets/images/layout/02g.webp
+menu: Prodotti
+---
+
+<div class="columns is-multiline is-mobile">
+    {% for card in site.data.prodotti %}
+    <div class="column is-6-mobile is-4-tablet is-3-desktop">
+        {% include card.html %}
+    </div>
+    {% endfor %}
+</div>
